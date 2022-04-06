@@ -3,10 +3,12 @@ const data = require("./data.json");
 const { projects } = data;
 
 const app = express();
+
+app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
 app.get('/', (req, res) => {
-    res.send('<img src="/static/images/employee-directory-550x550.jpg">');
+    res.render('index');
 
 });
 
