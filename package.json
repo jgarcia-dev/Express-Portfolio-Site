@@ -2,9 +2,13 @@
   "name": "express-portfolio-site",
   "version": "1.0.0",
   "description": "Portfolio site made with Express. Showcases my first five projects from TreeHouse JavaScript Full Stack Techdegree.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgarcia-dev/Express-Portfolio-Site"
   },
   "author": "John Garcia",
   "license": "MIT",
