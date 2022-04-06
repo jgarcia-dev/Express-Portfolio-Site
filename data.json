@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "App that displays random famous quotes. New quotes load every 10 seconds. A button can be clicked to manually load a new quote, which will also reset the 10 second timer. The background color will change to a random color with each new quote.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jgarcia-dev.github.io/Random-Quote-Generator/",
+            "github_link": "https://github.com/jgarcia-dev/Random-Quote-Generator",
+            "image_urls": ["random-quote-generator-550x550.jpg", "random-quote-generator-1200x550.jpg"]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "An app that uses pagination to display students' information from a data array. Pagination buttons are generated based on the number of students retrieved from the data array. A search box allows users to filter students by name.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jgarcia-dev.github.io/Data-Pagination-and-Filtering/",
+            "github_link": "https://github.com/jgarcia-dev/Data-Pagination-and-Filtering",
+            "image_urls": ["employee-pagination-550x550.jpg", "employee-pagination-1200x550.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Web Form",
+            "description": "An interactive form that uses JavaScript to enhance interactivity and perform validation. Form provides helpful error messages when the user interacts with the form.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jgarcia-dev.github.io/Interactive-Form/",
+            "github_link": "https://github.com/jgarcia-dev/Interactive-Form",
+            "image_urls": ["interactive-web-form-550x550.jpg", "interactive-web-form-1200x550.jpg"]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "A phrase questing game. Created using the principles of Object-Oriented Programming.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jgarcia-dev.github.io/OOP-Game-Show-App/",
+            "github_link": "https://github.com/jgarcia-dev/OOP-Game-Show-App",
+            "image_urls": ["random-quote-generator-550x550.jpg", "random-quote-generator-1200x550.jpg"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Request",
+            "description": "App for fictional startup company. App grabs information from the Random User Generator API and generates clickable cards for a set of employees.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jgarcia-dev.github.io/Project-5-Public-API-Request/",
+            "github_link": "https://github.com/jgarcia-dev/Project-5-Public-API-Request",
+            "image_urls": ["employee-directory-550x550.jpg", "employee-directory-1200x550.jpg"]
+        }
+    ]
+}
