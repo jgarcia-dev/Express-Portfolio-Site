@@ -42,9 +42,11 @@ app.use((req, res, next) => {
 // Global error handler
 app.use((err, req, res, next) => {
     if (err.status === 404) {
+        console.log('404 Error');
         console.log('404 - Page does not exist');
         res.status(404).render('page-not-found', { err });
     } else {
+        console.log('500 Error');
         err.status = err.status || 500;
         err.message = err.message || 'Oops, looks like something went wrong on the server.';
         res.status(err.status).render('error', { err });
