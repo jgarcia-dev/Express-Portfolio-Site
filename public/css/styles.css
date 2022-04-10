@@ -54,6 +54,11 @@ p{
   color: #666;
 }
 
+pre {
+  white-space: pre-wrap;
+  font-size: 0.8rem;
+}
+
 a {
   text-decoration: none;
 }

@@ -2,12 +2,14 @@ extends layout.pug
 
 block content
 
-	a(href='/')
-		span &larr;
-			|  Back to home page
+	nav.nav
+		a(href='/')
+			span &larr;
+				|  Back to home page
 
-	h1= `Server Error`
-	h2= `Error status: ${err.status}`
-	p= `Error message: ${err.message}`
-	div
-		pre #{err.stack}
+	.box
+		h1= `Server Error`
+		h2= `Error status: ${err.status}`
+		p= `Error message: ${err.message}`
+		div
+			pre #{err.stack}

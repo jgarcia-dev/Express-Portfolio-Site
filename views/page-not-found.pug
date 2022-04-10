@@ -2,12 +2,14 @@ extends layout.pug
 
 block content
 
-	a(href='/')
-		span &larr;
-			|  Back to home page
+	nav.nav
+		a(href='/')
+			span &larr;
+				|  Back to home page
 
-	h1 Page Not Found
+	.box
+		h1 Page Not Found
 
-	if err
-		h2= `Status code: ${err.status}`
-		p= `Error message: ${err.message}`
+		if err
+			h2= `Status code: ${err.status}`
+			p= `Error message: ${err.message}`
